@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6421000825E97A9600B22516 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421000725E97A9600B22516 /* imageViewController.swift */; };
 		6421FFF325E974DA00B22516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421FFF225E974DA00B22516 /* AppDelegate.swift */; };
 		6421FFF525E974DA00B22516 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421FFF425E974DA00B22516 /* SceneDelegate.swift */; };
 		6421FFF725E974DA00B22516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421FFF625E974DA00B22516 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		6421000025E974DD00B22516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6421000725E97A9600B22516 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 		6421FFEF25E974DA00B22516 /* LandmarkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6421FFF225E974DA00B22516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6421FFF425E974DA00B22516 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				6421FFF225E974DA00B22516 /* AppDelegate.swift */,
 				6421FFF425E974DA00B22516 /* SceneDelegate.swift */,
 				6421FFF625E974DA00B22516 /* ViewController.swift */,
+				6421000725E97A9600B22516 /* imageViewController.swift */,
 				6421FFF825E974DA00B22516 /* Main.storyboard */,
 				6421FFFB25E974DC00B22516 /* Assets.xcassets */,
 				6421FFFD25E974DD00B22516 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				6421FFF725E974DA00B22516 /* ViewController.swift in Sources */,
 				6421FFF325E974DA00B22516 /* AppDelegate.swift in Sources */,
+				6421000825E97A9600B22516 /* imageViewController.swift in Sources */,
 				6421FFF525E974DA00B22516 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXHM9J9KX4;
 				INFOPLIST_FILE = LandmarkBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXHM9J9KX4;
 				INFOPLIST_FILE = LandmarkBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
